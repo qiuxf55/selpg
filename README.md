@@ -112,6 +112,7 @@
 		line30
 		
 		５、./selpg -s1 -e1 -dlp1 1.txt
+		（通过cmd := exec.Command("cat","-n")也就是cat命令将1.txt的内容打印在屏幕上
 		line1
 		line2
 		line3
