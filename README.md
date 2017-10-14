@@ -40,3 +40,98 @@
 		line8
 		line9
 		line10
+		
+		2、./selpg -s1 -e1 1.txt >3.txt
+		3.txt:
+		line1
+		line2
+		line3
+		line4
+		line5
+		line6
+		line7
+		line8
+		line9
+		line10
+		line11
+		line12
+		line13
+		line14
+		line15
+		line16
+		line17
+		line18
+		line19
+		line20
+		
+		3、./selpg -s1 -e4 1.txt 2>error.txt
+		error.txt:
+		DEBUG: before handling 1st arg
+		DEBUG: before handling 2nd arg
+		DEBUG: before while loop for opt args
+		DEBUG: before check for filename arg
+		DEBUG: argno = 3
+		DEBUG: sa.start_page = 1
+		DEBUG: sa.end_page = 4
+		DEBUG: sa.page_len = 20
+		DEBUG: sa.page_type = l
+		DEBUG: sa.print_dest = 
+		DEBUG: sa.in_filename = 1.txt
+		end page is greater than total page
+		
+		4、./selpg -s1 -e1 -f 1.txt
+		line1
+		line2
+		line3
+		line4
+		line5
+		line6
+		line7
+		line8
+		line9
+		line10
+		line11
+		line12
+		line13
+		line14
+		line15
+		line16
+		line17
+		line18
+		line19
+		line20
+		line21
+		line22
+		line23
+		line24
+		line25
+		line26
+		line27
+		line28
+		line29
+		line30
+		
+		５、./selpg -s1 -e1 -dlp1 1.txt
+		line1
+		line2
+		line3
+		line4
+		line5
+		line6
+		line7
+		line8
+		line9
+		line10
+		line11
+		line12
+		line13
+		line14
+		line15
+		line16
+		line17
+		line18
+		line19
+		line20
+
+		
+		
